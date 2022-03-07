@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 450px;
+    height: 60px;
+    background-color: #4d6eaa;
+    color: white;
+    margin: auto;
+    padding: 10px 200px;
+}
+#emailtelefono{
+    float: left;
+}
+.ccontraseña{
+    margin-left: 200px;
+    float: both;
+}
+.login{
+margin-left: 15px;
+width: 60px;
+background-color: #5f80b5;
+color: white;
+}
+
+div{
+    margin: auto;
+}
+.grupo_2{
+    width: 650px;
+    height: 550px;
+    margin: auto;
+    background-color: #ecf0f2;
+    padding: 10px 100px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.primer_grupo>input{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+}
+#mobile,#ncontraseña{
+    width: 605px;
+    height: 30px;
+    border-radius: 3px;
+}
+#date{
+    width: 300px;
+    height: 30px;
+    float: left;
+}
+#birth{
+    float: right;
+    margin-right: 40px;
+}
+.typeradio{
+    font-size: 20px;
+}
+.parrafo{
+    font-size: 18px;
+}
+#account{
+    background-color: #72aa5e;
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+}

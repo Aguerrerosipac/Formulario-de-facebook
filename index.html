@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <form name="formulario_3" method="post" action="/send.php">
+        <section class="header">
+            <div id="emailtelefono">
+      <label for=""> E-mail or phone</label>
+      <br>
+          <input type="text" name="correotelefono" />
+      </div>
+      <div class="ccontraseña">
+        <label for="">Password</label>
+        <br>
+          <input type="password" name="contraseña" min="8" max="10" />
+          <button class="login">Log in</button>
+          <br>
+          <label for="" id="forgotten">Forgotten account </label>
+    </div>
+    </section>
+    <section class="grupo_2">
+      <h1>Create a new account</h1> 
+      <p>It`s free and always will be.</p> 
+      <div class="primer_grupo">
+      <input type="text" name="nombre" placeholder="First name" />
+      <input type="text" name="sumame" placeholder="sumame" />
+    </div>
+    <br>
+      <input
+        type="text"
+        name="telefonomobil"
+        placeholder="Mobile number or email address"
+        id="mobile"
+      />
+      <br><br>
+      <input type="text" name="nueva_contraseña" placeholder="New password" id="ncontraseña"/>
+      <br><br><br>
+      <label> Birthday</label>
+      <br>
+      <input
+        type="date"
+        name="fecha"
+        min="1999-07-14"
+        max="2021-11-09"
+        step="1"
+        id="date"
+      />
+      <a href="#" id="birth">why do I need to provide my date or Birth?</a>
+
+      <br><br><br>
+      <div class="typeradio">
+      <input type="radio" name="Female" /> Female
+      <input type="radio" name="Male" /> Male
+    </div>
+    <br><br><br>
+      <p class="parrafo">
+        By cliking create account your agree to our <a href="#"> Terms </a> and
+        confirm that you have read our <a href="#"> Date Policy.</a> Including
+        our <a href="#">Cookie Use Policy.</a> You may receive SMS message
+        notifications from Facebook and can opt out at any time
+      </p>
+      <button id="account">Create account</button>
+    </section>
+    </form>
+  </body>
+</html>
